@@ -3,6 +3,6 @@ when@dev:
         resource: "@FrameworkBundle/Resources/config/routing/errors.xml"
         prefix: /_error
 
-kaska_route:
+shop_route:
     path: /shop
     controller: App\Controller\ShopController::index
