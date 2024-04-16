@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 class HomeController extends AbstractController
 {
-    #[Route('/custom-home', name: 'home')]
+    #[Route('/home', name: 'home')]
     public function index(): JsonResponse
     {
         return $this->json([

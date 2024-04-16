@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 class ShopController extends AbstractController
 {
-    #[Route('/kaska', name: 'app_kaska')]
+    #[Route('/shop', name: 'shop_name')]
     public function index(): JsonResponse
     {
         return $this->json([
